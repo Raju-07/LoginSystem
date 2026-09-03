@@ -118,7 +118,7 @@ echo "_______________________________________________________"
 echo "Installing lib and packages"
 echo "_______________________________________________________"
 
-for lib in fastapi redis celery postgres psycopg2-binary asyncpg sqlalchemy
+for lib in fastapi redis celery postgres psycopg2-binary asyncpg sqlalchemy argon2-cffi
 	do 
 		echo "installing $lib"
 		pip install $lib

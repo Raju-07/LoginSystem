@@ -8,6 +8,14 @@
 
 For Mail we're using google SMTP
 
+## Security:
+
+for password hashing we're using **Argon2** which is modern and registance to GPU/ASCI attacks , far superior to old methods like bcrypt or SHA.
+
+Winner of the password hashing competition (2015).
+
+check out how to use : ***[click here](Argon2-PasswordHash.md)***
+
 ## Tech Stacks
 
 * Fastapi
