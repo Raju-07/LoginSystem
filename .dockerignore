@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 *.pyc
 *.md
 
@@ -16,3 +17,7 @@ tests/
 .dockerignore
 
 rough.py
+=======
+.venv
+rough.py
+>>>>>>> Stashed changes
