@@ -6,7 +6,7 @@
 .git*
 Dockerfile*
 docker-compose*.yml
-__pycache__
+**/__pycache__
 
 
 logs/
